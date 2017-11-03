@@ -6,19 +6,11 @@ public class ArrayFun {
 
 	public void showInstructions() {
 		
-		String msg = "Essential rules for arrays";
-		String msg1 = "1. Arrays have a fixed length at the time they are created";
-		String msg2 = "2. Two ways to set array size:";
-		String msg3 = "-- one way is to set size when created with [size]";
-		String msg4 = "-- other way is to set size from initial data {n1,n2...";
-		String msg5 = "Dynamic - when the program is running";
-		String msg6 = "Can not change size of array";
-		String msg7 = "but can change the values";
+		String[] rules = {"Essential rules for arrays" + "\n1. Arrays have a fixed length at the time they are created"
+		+ "\n2. Two ways to set array size:" + "\n-- one way is to set size when created with [size]" 
+		+ "\nDynamic - when the program is running" + "\nCan not change size of array" + "\nbut can change the values"};
 		
-		msg = (msg1 + "\n" + msg2 + "\n" + msg3 + "\n" + msg4 + "\n" + msg5 + "\n" + msg6 + "\n" + msg7);
-		
-		
-		JOptionPane.showMessageDialog(null, msg);
+		JOptionPane.showMessageDialog(null, rules);
 		
 		
 	}
